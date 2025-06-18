@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.gocomet.runner.TestRunner" time="36.095" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\hp\OneDrive - Lovely Professional University\Desktop\casekaro-maven-java\casekaro-maven-java\casekaro-maven-gocomet\target\test-classes;C:\Users\hp\OneDrive - Lovely Professional University\Desktop\casekaro-maven-java\casekaro-maven-java\casekaro-maven-gocomet\target\classes;C:\Users\hp\.m2\repository\com\microsoft\playwright\playwright\1.42.0\playwright-1.42.0.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\hp\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\hp\.m2\repository\com\microsoft\playwright\driver\1.42.0\driver-1.42.0.jar;C:\Users\hp\.m2\repository\com\microsoft\playwright\driver-bundle\1.42.0\driver-bundle-1.42.0.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-java\7.12.1\cucumber-java-7.12.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-core\7.12.1\cucumber-core-7.12.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-gherkin\7.12.1\cucumber-gherkin-7.12.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.12.1\cucumber-gherkin-messages-7.12.1.jar;C:\Users\hp\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\hp\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\hp\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\hp\.m2\repository\io\cucumber\datatable\7.12.1\datatable-7.12.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-plugin\7.12.1\cucumber-plugin-7.12.1.jar;C:\Users\hp\.m2\repository\io\cucumber\docstring\7.12.1\docstring-7.12.1.jar;C:\Users\hp\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\hp\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\hp\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\hp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-junit\7.12.1\cucumber-junit-7.12.1.jar;C:\Users\hp\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire3709883995456242187\surefirebooter-20250618134242943_3.jar C:\Users\hp\AppData\Local\Temp\surefire3709883995456242187 2025-06-18T13-42-42_787-jvmRun1 surefire-20250618134242943_1tmp surefire_0-20250618134242943_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\hp\OneDrive - Lovely Professional University\Desktop\casekaro-maven-java\casekaro-maven-java\casekaro-maven-gocomet\target\test-classes;C:\Users\hp\OneDrive - Lovely Professional University\Desktop\casekaro-maven-java\casekaro-maven-java\casekaro-maven-gocomet\target\classes;C:\Users\hp\.m2\repository\com\microsoft\playwright\playwright\1.42.0\playwright-1.42.0.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\hp\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\hp\.m2\repository\com\microsoft\playwright\driver\1.42.0\driver-1.42.0.jar;C:\Users\hp\.m2\repository\com\microsoft\playwright\driver-bundle\1.42.0\driver-bundle-1.42.0.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-java\7.12.1\cucumber-java-7.12.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-core\7.12.1\cucumber-core-7.12.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-gherkin\7.12.1\cucumber-gherkin-7.12.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.12.1\cucumber-gherkin-messages-7.12.1.jar;C:\Users\hp\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\hp\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\hp\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\hp\.m2\repository\io\cucumber\datatable\7.12.1\datatable-7.12.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-plugin\7.12.1\cucumber-plugin-7.12.1.jar;C:\Users\hp\.m2\repository\io\cucumber\docstring\7.12.1\docstring-7.12.1.jar;C:\Users\hp\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\hp\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\hp\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\hp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-junit\7.12.1\cucumber-junit-7.12.1.jar;C:\Users\hp\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\hp"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\hp\OneDrive - Lovely Professional University\Desktop\casekaro-maven-java\casekaro-maven-java\casekaro-maven-gocomet"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire3709883995456242187\surefirebooter-20250618134242943_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="hp"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\hp\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\hp\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="C:\Users\hp\OneDrive - Lovely Professional University\Desktop\casekaro-maven-java\casekaro-maven-java\casekaro-maven-gocomet"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python313\Scripts\;C:\Python313\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\app\hp\product\12.1.0\dbhome_1\bin;C:\python31\Scripts\;C:\python31\;C:\New folder\Scripts\;C:\New folder\;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MongoDB\Server\8.0\bin;C:\Program Files\Docker\Docker\resources\bin;C:\MinGW\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\apache-maven-3.9.10\bin;C:\Users\hp\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\hp\AppData\Local\Programs\Python\Python36\;C:\Anaconda3\Library\mingw-w64\bin;C:\Anaconda3;C:\Anaconda3\Library\usr\bin;C:\Anaconda3\Library\bin;C:\Anaconda3\Scripts;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\bin;;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hp\AppData\Roaming\npm;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;;c:\Users\hp\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Search for iPhone 16 Pro cases and verify pricing" classname="CaseKaro Product Search and Filter" time="35.409">
+    <system-out><![CDATA[
+Scenario: Search for iPhone 16 Pro cases and verify pricing     &amp#27;[90m# src/test/resources/features/casekaro.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the CaseKaro website&amp#27;[0m                            &amp#27;[90m# com.gocomet.steps.CaseKaroSteps.i_am_on_the_casekaro_website()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to Mobile Covers section&amp#27;[0m                      &amp#27;[90m# com.gocomet.steps.CaseKaroSteps.i_navigate_to_mobile_covers_section()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI search for &amp#27;[0m&amp#27;[32m&amp#27;[1m"Apple"&amp#27;[0m&amp#27;[32m brand&amp#27;[0m                                &amp#27;[90m# com.gocomet.steps.CaseKaroSteps.i_search_for_brand(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI select Apple brand from the results&amp#27;[0m                     &amp#27;[90m# com.gocomet.steps.CaseKaroSteps.i_select_apple_brand_from_results()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI search for &amp#27;[0m&amp#27;[32m&amp#27;[1m"iPhone 16 Pro"&amp#27;[0m                              &amp#27;[90m# com.gocomet.steps.CaseKaroSteps.i_search_for_model(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI select iPhone 16 Pro from the results&amp#27;[0m                   &amp#27;[90m# com.gocomet.steps.CaseKaroSteps.i_select_iphone_16_pro_from_results()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI filter for in-stock items&amp#27;[0m                               &amp#27;[90m# com.gocomet.steps.CaseKaroSteps.i_filter_for_in_stock_items()&amp#27;[0m
+Current URL: https://casekaro.com/collections/iphone-16-pro-back-covers?filter.v.availability=1&filter.v.price.gte=&filter.v.price.lte=&sort_by=best-selling
+Scraping page 1...
+Found 24 products on current page
+Added product: 
+                Classic Porsche 911 iPhone 16 Pro Back Cover
+              
+Added product: 
+                BMW Stripes Pattern iPhone 16 Pro Back Cover
+              
+Added product: 
+                Spider Man iPhone 16 Pro Back Cover
+              
+Added product: 
+                Cartoon Astronaut iPhone 16 Pro Back Cover
+              
+Added product: 
+                Sticker Bomb iPhone 16 Pro Back Cover
+              
+Added product: 
+                Chota Naruto iPhone 16 Pro Back Cover
+              
+Added product: 
+                Satyamev Jayate Golden iPhone 16 Pro Back Cover
+              
+Added product: 
+                Itachi Uchiha iPhone 16 Pro Back Cover
+              
+Added product: 
+                Deadpool iPhone 16 Pro Back Cover
+              
+Added product: 
+                Soft Silicone iPhone 16 Pro Back Cover
+              
+Added product: 
+                Geometric Pattern iPhone 16 Pro Back Cover
+              
+Added product: 
+                Black Marble Texture iPhone 16 Pro Back Cover
+              
+Added product: 
+                BMW Stripes iPhone 16 Pro Back Cover
+              
+Added product: 
+                Satyamev Jayate Golden iPhone 16 Pro Glass Case
+              
+Added product: 
+                Ew People Catitude iPhone 16 Pro Back Cover
+              
+Added product: 
+                Do Shit You Love iPhone 16 Pro Back Cover
+              
+Added product: 
+                Bull Trading Momentum iPhone 16 Pro Back Cover
+              
+Added product: 
+                Lion Art iPhone 16 Pro Back Cover
+              
+Added product: 
+                Funny Cartoon iPhone 16 Pro Back Cover
+              
+Added product: 
+                Akatsuki iPhone 16 Pro Back Cover
+              
+Added product: 
+                Spider iPhone 16 Pro Back Cover
+              
+Added product: 
+                Heart iPhone 16 Pro Back Cover
+              
+Added product: 
+                Artwork iPhone 16 Pro Back Cover
+              
+Added product: 
+                Blue Waves iPhone 16 Pro Back Cover
+              
+Page 1 products: 24
+Navigating to page 2: https://casekaro.com/collections/iphone-16-pro-back-covers?filter.v.availability=1&filter.v.price.gte=&filter.v.price.lte=&sort_by=best-selling?page=2
+Scraping page 2...
+Found 24 products on current page
+Added product: 
+                Classic Porsche 911 iPhone 16 Pro Back Cover
+              
+Added product: 
+                BMW Stripes Pattern iPhone 16 Pro Back Cover
+              
+Added product: 
+                Spider Man iPhone 16 Pro Back Cover
+              
+Added product: 
+                Cartoon Astronaut iPhone 16 Pro Back Cover
+              
+Added product: 
+                Sticker Bomb iPhone 16 Pro Back Cover
+              
+Added product: 
+                Chota Naruto iPhone 16 Pro Back Cover
+              
+Added product: 
+                Satyamev Jayate Golden iPhone 16 Pro Back Cover
+              
+Added product: 
+                Itachi Uchiha iPhone 16 Pro Back Cover
+              
+Added product: 
+                Deadpool iPhone 16 Pro Back Cover
+              
+Added product: 
+                Soft Silicone iPhone 16 Pro Back Cover
+              
+Added product: 
+                Geometric Pattern iPhone 16 Pro Back Cover
+              
+Added product: 
+                Black Marble Texture iPhone 16 Pro Back Cover
+              
+Added product: 
+                BMW Stripes iPhone 16 Pro Back Cover
+              
+Added product: 
+                Satyamev Jayate Golden iPhone 16 Pro Glass Case
+              
+Added product: 
+                Ew People Catitude iPhone 16 Pro Back Cover
+              
+Added product: 
+                Do Shit You Love iPhone 16 Pro Back Cover
+              
+Added product: 
+                Bull Trading Momentum iPhone 16 Pro Back Cover
+              
+Added product: 
+                Lion Art iPhone 16 Pro Back Cover
+              
+Added product: 
+                Funny Cartoon iPhone 16 Pro Back Cover
+              
+Added product: 
+                Akatsuki iPhone 16 Pro Back Cover
+              
+Added product: 
+                Spider iPhone 16 Pro Back Cover
+              
+Added product: 
+                Heart iPhone 16 Pro Back Cover
+              
+Added product: 
+                Artwork iPhone 16 Pro Back Cover
+              
+Added product: 
+                Blue Waves iPhone 16 Pro Back Cover
+              
+Total products after page 2: 48
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be able to extract products from multiple pages&amp#27;[0m &amp#27;[90m# com.gocomet.steps.CaseKaroSteps.i_should_be_able_to_extract_products()&amp#27;[0m
+
+============== Products Sorted By Price (Low to High) ==============
+Total Products Found: 48
+====================================================================
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Classic Porsche 911 iPhone 16 Pro Back Cover                          
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0690-A.jpg?v=1736839142&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: BMW Stripes Pattern iPhone 16 Pro Back Cover                          
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0677-A.jpg?v=1727631261&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Spider Man iPhone 16 Pro Back Cover                                   
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0610-A.jpg?v=1727630965&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Cartoon Astronaut iPhone 16 Pro Back Cover                            
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0608-A.jpg?v=1727630955&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Sticker Bomb iPhone 16 Pro Back Cover                                 
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0438-A.jpg?v=1727545789&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Chota Naruto iPhone 16 Pro Back Cover                                 
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0606-A.jpg?v=1727630940&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Satyamev Jayate Golden iPhone 16 Pro Back Cover                       
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0580-A.jpg?v=1727630835&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Itachi Uchiha iPhone 16 Pro Back Cover                                
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0614-A.jpg?v=1727630983&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Deadpool iPhone 16 Pro Back Cover                                     
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0595-A.jpg?v=1727630898&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Geometric Pattern iPhone 16 Pro Back Cover                            
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0532-A.jpg?v=1727630643&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Black Marble Texture iPhone 16 Pro Back Cover                         
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0061-A.jpg?v=1727545265&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: BMW Stripes iPhone 16 Pro Back Cover                                  
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0670-A.jpg?v=1727631233&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Ew People Catitude iPhone 16 Pro Back Cover                           
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0682-A.jpg?v=1736839100&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Do Shit You Love iPhone 16 Pro Back Cover                             
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0361-A.jpg?v=1727545599&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Bull Trading Momentum iPhone 16 Pro Back Cover                        
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0688-A.jpg?v=1736839132&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Lion Art iPhone 16 Pro Back Cover                                     
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0358-A.jpg?v=1727545579&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Funny Cartoon iPhone 16 Pro Back Cover                                
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0523-A.jpg?v=1727630609&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Akatsuki iPhone 16 Pro Back Cover                                     
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0514-A.jpg?v=1727630575&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Spider iPhone 16 Pro Back Cover                                       
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0594-A.jpg?v=1727630895&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Heart iPhone 16 Pro Back Cover                                        
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0113-A.jpg?v=1727545289&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Artwork iPhone 16 Pro Back Cover                                      
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0519-A.jpg?v=1727630594&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Blue Waves iPhone 16 Pro Back Cover                                   
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0506-A.jpg?v=1727630545&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Classic Porsche 911 iPhone 16 Pro Back Cover                          
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0690-A.jpg?v=1736839142&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: BMW Stripes Pattern iPhone 16 Pro Back Cover                          
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0677-A.jpg?v=1727631261&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Spider Man iPhone 16 Pro Back Cover                                   
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0610-A.jpg?v=1727630965&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Cartoon Astronaut iPhone 16 Pro Back Cover                            
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0608-A.jpg?v=1727630955&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Sticker Bomb iPhone 16 Pro Back Cover                                 
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0438-A.jpg?v=1727545789&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Chota Naruto iPhone 16 Pro Back Cover                                 
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0606-A.jpg?v=1727630940&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Satyamev Jayate Golden iPhone 16 Pro Back Cover                       
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0580-A.jpg?v=1727630835&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Itachi Uchiha iPhone 16 Pro Back Cover                                
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0614-A.jpg?v=1727630983&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Deadpool iPhone 16 Pro Back Cover                                     
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0595-A.jpg?v=1727630898&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Geometric Pattern iPhone 16 Pro Back Cover                            
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0532-A.jpg?v=1727630643&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Black Marble Texture iPhone 16 Pro Back Cover                         
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0061-A.jpg?v=1727545265&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: BMW Stripes iPhone 16 Pro Back Cover                                  
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0670-A.jpg?v=1727631233&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Ew People Catitude iPhone 16 Pro Back Cover                           
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0682-A.jpg?v=1736839100&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Do Shit You Love iPhone 16 Pro Back Cover                             
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0361-A.jpg?v=1727545599&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Bull Trading Momentum iPhone 16 Pro Back Cover                        
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0688-A.jpg?v=1736839132&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Lion Art iPhone 16 Pro Back Cover                                     
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0358-A.jpg?v=1727545579&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Funny Cartoon iPhone 16 Pro Back Cover                                
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0523-A.jpg?v=1727630609&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Akatsuki iPhone 16 Pro Back Cover                                     
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0514-A.jpg?v=1727630575&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Spider iPhone 16 Pro Back Cover                                       
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0594-A.jpg?v=1727630895&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Heart iPhone 16 Pro Back Cover                                        
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0113-A.jpg?v=1727545289&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Artwork iPhone 16 Pro Back Cover                                      
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0519-A.jpg?v=1727630594&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Blue Waves iPhone 16 Pro Back Cover                                   
+| Original Price: ₹ 499.00 (Discounted: From ₹ 69.00)
+| Image Link: https://casekaro.com/cdn/shop/files/CK-0623-iP16PRO-0506-A.jpg?v=1727630545&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Soft Silicone iPhone 16 Pro Back Cover                                
+| Original Price: ₹ 499.00 (Discounted: ₹ 99.00)
+| Image Link: https://casekaro.com/cdn/shop/files/Soft_Silicone_0007_6740e3a6-3970-408f-99a7-f7f1bbdab380.jpg?v=1746435971&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Soft Silicone iPhone 16 Pro Back Cover                                
+| Original Price: ₹ 499.00 (Discounted: ₹ 99.00)
+| Image Link: https://casekaro.com/cdn/shop/files/Soft_Silicone_0007_6740e3a6-3970-408f-99a7-f7f1bbdab380.jpg?v=1746435971&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Satyamev Jayate Golden iPhone 16 Pro Glass Case                       
+| Original Price: ₹ 699.00 (Discounted: ₹ 249.00)
+| Image Link: https://casekaro.com/cdn/shop/files/GC-0623-iP16PRO-0580-A_e1c98492-65ba-4262-8a4c-82e6558a702b.jpg?v=1729762672&width=533
+
++----------------------------------------------------------------------------------------+
+| Product Details:
+| Description: Satyamev Jayate Golden iPhone 16 Pro Glass Case                       
+| Original Price: ₹ 699.00 (Discounted: ₹ 249.00)
+| Image Link: https://casekaro.com/cdn/shop/files/GC-0623-iP16PRO-0580-A_e1c98492-65ba-4262-8a4c-82e6558a702b.jpg?v=1729762672&width=533
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mproducts should be sorted by price&amp#27;[0m                        &amp#27;[90m# com.gocomet.steps.CaseKaroSteps.products_should_be_sorted_by_price()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
